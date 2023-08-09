@@ -1,0 +1,100 @@
+/* .booktable__modal */
+.booktable__container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.booktable__modal-content {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  width: 500px;
+  max-width: 90%;
+	position: relative;
+}
+
+.booktable__header {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* .booktable__modal-close */
+.booktable__close {
+	/* position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: #aaa;
+  cursor: pointer;
+	border: none;
+	background: none; */
+	position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #aaa;
+  cursor: pointer;
+  border: none;
+  background: none;
+  z-index: 99999;
+}
+
+.booktable__close:hover {
+	color: #000;
+}
+
+/* .booktable__label */
+.booktable__header {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.booktable__input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.booktable__button {
+  display: block;
+  background-color: var( --color-golden);
+  color: #fff;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+	margin: 0 auto;
+}
+
+	/* background-color: #FF4820;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+	display: flex;
+	margin: 0 auto; */
+
+
+/* .booktable__message {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+} */
